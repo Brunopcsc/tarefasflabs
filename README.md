@@ -21,5 +21,5 @@ Criar as rotas:
 
 1. Abrir o diretório do projeto pelo terminal
 2. Executar o seguinte comando para iniciar o servidor:
-> node src/index.js
+<code> node src/index.js </code>
 3. Testar via Postman as requisições GET,POST,PUT,DELETE com a url http://localhost:3000/usuario/
