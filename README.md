@@ -23,3 +23,11 @@ Criar as rotas:
 2. Executar o seguinte comando para iniciar o servidor:
 <code> node src/index.js </code>
 3. Testar via Postman as requisições GET,POST,PUT,DELETE com a url http://localhost:3000/usuario/
+
+# Considerações
+
+- A coleção de usuários possui os seguintes campos (a serem incluidos no Json):
+1. nome
+2. email
+3. senha
+- Além disso possui o campo 'criadoEm' que é um atributo padrão que automaticamente se preenche com a data e horário de criação do registro
